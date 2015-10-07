@@ -1,0 +1,43 @@
+Thank you for downloading TerrainScaper!
+
+This text file will be updated shortly with a more detailed pdf.
+
+Access TerrainScaper through Window->TerrainGenerator
+_____________
+Archetypes
+----------
+Archetypes allow you to create multiple custom presets. When you first open the program, enter a name for your preset, and click Add. If you wish to add further presets, select the dropdown box with your preset's name, and select New, then enter another name and click Add again. To select a previously created Archetype to either generate terrain or modify the preset, first select it from the dropdown box, and then click "Select YourPrestName".
+______________
+Noise Settings
+--------------
+Quality - Low, Standard or High quality noise generation. This most generally affects float precision.
+
+Combine - Select up to three noise types to combine with each other. This setting will be updated in the future with more options and the ability to increase or decrease the number of combined noises.
+
+Seed - The seed is purposedly purely for created different variations of your preset.
+
+Octaves - Lower values will provide faster generation time (at least 1 required), but lower quality noise. 1-3 octaves is most typical.
+
+Frequency - Visually this will affect the scale of your noise. Lower values will create more compact structures. Note the default value of .003
+
+Persistence - This value is a mutiplier that affects the cohesion through octaves. At 1 octave, it makes little to no impact.
+
+Lacunarity - Similar to persistence, this affects frequency through octaves.
+
+For more information on Noise Values, please visit libnoise.sourceforge.net/glossary/.
+_____________
+Terrain Settings
+----------------
+
+Terrain Prefab - This setting is residual from CityScaper, where it will allow custom terrains to be imported for CityScaper to build upon. In TerrainGenerator however, I've left it simply as a quick access point to find the generated prefab of your Terrain Archetype.
+
+Texture - The texture you'd like the terrain to be coated with.
+
+Cubic Size - The the square root of your terrain's heightmap. For instance, 32 would create a cubic heightmap resolution of 1024. This setting will be expanded in the future to give more control over resolution and size.
+
+Axes - The horizontal placement of the terrain at y value of 0. Y actually represents axis Z.
+
+Height - The maximum height of the terrain, could be used to turn hills into mountains.
+
+Scale - A scale multiplier applied after terrain generation.
+
